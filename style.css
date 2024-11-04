@@ -1,0 +1,199 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    height: 400vh;
+}
+
+.content {
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+
+header {
+    width: 100vw;
+    background-color: #4a2c2a;
+    padding: 1vw;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 100%;
+    }
+
+    .textodapagina {
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bolder;
+        color: white;
+        font-size: 100%;
+        font-weight: bolder;
+    }
+
+    .links {
+        width: 50vw;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5vw;
+        margin: 1vw;
+        transition: color 0.3s;
+    }
+
+    .links a:hover {
+        color: #ffcc00;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    width: 80vw;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2vw;
+    margin: 2vw 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 h1 {
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+}
+
+.container2 p, .container2 ul {
+    font-size: 1.2vw;
+    color: #666;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #ffb74d; /* Amarelo dourado */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 210px;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: contain; 
+    border-radius: 5px; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.container3 {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 3vw;
+    margin: 3vw 0;
+    color: #000000;
+    font-size: 1.9vw;
+    font-weight: bolder;
+    background: white;
+    border-radius: 20px; 
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img {
+    width: 350px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    margin: 1vw 0;
+    padding: 1vw;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #4a2c2a;
+    color: white;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ffcc00;
+}
+
+footer {
+    width: 100vw;
+    background: #4a2c2a;
+    color: white;
+    padding: 1vw;
+
+    .copy {
+        text-align: center;
+        padding: 2vw;
+    }
+
+    .redes-sociais {
+        margin-top: 1vw;
+    }
+
+    .redes-sociais a {
+        color: white;
+        margin: 0 1vw;
+        text-decoration: none;
+    }
+
+    .redes-sociais a:hover {
+        color: #ffcc00;
+    }
+}
